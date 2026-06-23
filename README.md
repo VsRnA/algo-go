@@ -15,6 +15,10 @@ algo-go/
 ├── sliding-window/
 ├── linked-list/
 ├── stack/
+│   └── valid-parentheses/
+│       ├── main.go
+│       ├── main_test.go
+│       └── README.md
 ├── tree/
 ├── graph/
 ├── dynamic-programming/
@@ -39,6 +43,7 @@ algo-go/
 ### Стек
 | Задача | Время | Память |
 |--------|-------|--------|
+| [Valid Parentheses](./stack/valid-parentheses/) | O(n) | O(n) |
 
 ### Деревья
 | Задача | Время | Память |
@@ -65,4 +70,7 @@ go test -v
 
 # тесты + бенчмарк
 go test -v -bench=. -benchmem
+
+# все тесты сразу
+go test ./...
 ```
