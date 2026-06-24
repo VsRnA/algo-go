@@ -27,6 +27,10 @@ algo-go/
 ├── graph/
 ├── dynamic-programming/
 └── binary-search/
+    └── binary-search/
+        ├── main.go
+        ├── main_test.go
+        └── README.md
 ```
 
 ## Задачи
@@ -65,6 +69,7 @@ algo-go/
 ### Двоичный поиск
 | Задача | Время | Память |
 |--------|-------|--------|
+| [Binary Search](./binary-search/binary-search/) | O(log n) | O(1) |
 
 ## Запуск
 
