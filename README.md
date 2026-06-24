@@ -14,6 +14,10 @@ algo-go/
 │       └── README.md
 ├── sliding-window/
 ├── linked-list/
+│   └── reverse-linked-list/
+│       ├── main.go
+│       ├── main_test.go
+│       └── README.md
 ├── stack/
 │   └── valid-parentheses/
 │       ├── main.go
@@ -39,6 +43,7 @@ algo-go/
 ### Связный список
 | Задача | Время | Память |
 |--------|-------|--------|
+| [Reverse Linked List](./linked-list/reverse-linked-list/) | O(n) | O(1) |
 
 ### Стек
 | Задача | Время | Память |
